@@ -46,6 +46,11 @@
 
 -- What query would you run to get all the actors that joined in the film_id = 369? 
 -- Your query should return the film_id, title, actor_id, and actor_name.
+-- SELECT film.film_id, film.title, actor.actor_id, actor.first_name, actor.last_name FROM film
+-- JOIN film_actor ON film_actor.film_id=film.film_id
+-- JOIN actor ON film_actor.actor_id=actor.actor_id
+-- WHERE film.film_id='369';
+-- Correct per answer key
 
 
 -- What query would you run to get all drama films with a rental rate of 2.99? Your query should return 
