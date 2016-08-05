@@ -1,0 +1,13 @@
+Important Concepts from SQLZoo
+- COALESCE
+  - allows you to substitute a value you specify in a cell if it is NULL
+- JOIN
+  - allows you to pull data from another table to service a query
+- CASE WHEN
+  - define outputs when certain conditions are met
+- COUNT
+  - allows you to count the number in a column or number of times a value exists
+- DISTINCT
+  - allows you to specify a unique occurance when you're counting
+- NULL
+  - when there is no value
