@@ -43,9 +43,9 @@
 -- What query would you run to get all the cities of Argentina inside the Buenos Aires 
 -- district and have the population greater than 500,000? The query should return the 
 -- Country Name, City Name, District and Population.
--- SELECT * FROM cities
--- JOIN countries ON countries.id = cities.country_id
--- WHERE cities.population > '500000' AND district = 'Buenos Aires';
+SELECT * FROM cities
+JOIN countries ON countries.id = cities.country_id
+WHERE cities.population > '500000' AND district = 'Buenos Aires';
 -- -- looks right but ask how to display only those columns instead of *
 
 -- What query would you run to summarize the number of countries in each region? 
